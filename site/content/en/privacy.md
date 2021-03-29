@@ -25,17 +25,11 @@ III. Information about the data processing
 
 The party responsible for this website (the "controller") for purposes of data protection law is:
 
-Marc Riepen  
-Goldbachstrasse 1.  
-22765 Hamburg  
-Germany
-
-Email: support@klever.global
-Internet Address: [Klever.global](https://klever.global)  
-Phone: + 49_40_2546_9975
+E-Mail: support@leif.agency   
+Internet Address: [Leif.Agency](https://leif.agency)   
 
 #### The Data Protection Officer:
-According to GDPR, Marc Riepen is not obliged to appoint a Data Protection Officer.
+According to GDPR, Leif is not obliged to appoint a Data Protection Officer.
 
 ### II. The rights of users and data subjects
 

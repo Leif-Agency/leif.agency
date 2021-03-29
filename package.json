@@ -1,7 +1,7 @@
 {
-  "name": "hugo-landing-page-boilerplate",
+  "name": "leif_corp_website",
   "version": "1.0.0",
-  "description": "Hugo Boilerplate for Landing Pages with Webpack, PostCss, Babel and Tailwind Css",
+  "description": "Leif.Agency corporate website",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
@@ -69,17 +69,17 @@
     "webpack-dev-middleware": "^4.1.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.6.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madsem/hugo-landing-page-boilerplate.git"
+    "url": "git+https://github.com/madsem/leif.agency.git"
   },
   "author": "",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/madsem/hugo-landing-page-boilerplate/issues"
+    "url": "https://github.com/madsem/leif.agency/issues"
   },
-  "homepage": "https://github.com/madsem/hugo-landing-page-boilerplate#readme",
+  "homepage": "https://github.com/madsem/leif.agency#readme",
   "dependencies": {}
 }

@@ -1,8 +1,0 @@
-{{ range (.Site.GetPage "section" "products").Sections  }}
-<a href="{{ .Permalink }}" title="{{ .Title }}"
-  class="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
-  <p class="text-base font-medium text-gray-900">
-    {{ .Title }}
-  </p>
-</a>
-{{end}}

@@ -1,4 +1,4 @@
-baseurl: https://www.shortlist.reviews
+baseurl: https://leif.agency
 disableHugoGeneratorInject: true
 enableRobotsTXT: true
 canonifyURLs: true
@@ -16,41 +16,52 @@ markup:
       unsafe: true
 
 params:
-  title: "Shortlist Reviews"
-
-  # The Klever Hub Property ID for this landing page.
-  property_id: 1a2dba66-8165-4cf7-9ef9-cd79331034d5
-
+  title: "Leif.Agency - All Hands On Deck!"
+  
   # The action url for the contact us form.
   contact_form_url: https://2uk835ggu4.execute-api.eu-central-1.amazonaws.com/prod/contact
 
 # Default language menus
 menus:
-  footer:
-  - identifier: about
-    title: What are Shortlists?
+  main:
+  - identifier: company
+    title: Company
     url: /about/
     weight: 1
-  - identifier: privacy
-    title: Privacy Policy
-    url: /privacy/
+  - identifier: approach
+    title: Our Approach
+    url: /approach/
     weight: 2
-  - identifier: terms
-    title: Terms of Use
-    url: /terms/
+  - identifier: contact
+    title: Contact
+    url: /contact/
     weight: 3
-  - identifier: advertising-disclosure
-    title: Advertising Disclosure
-    url: /advertising-disclosure/
-    weight: 4
-  - identifier: legal-disclosure
-    title: Legal Disclosure
-    url: /legal-disclosure/
-    weight: 5
+  company:
+  - identifier: about
+    title: Who are we?
+    url: /about/
+    weight: 1
+  - identifier: approach
+    title: Our Approach
+    url: /approach/
+    weight: 2
   - identifier: contact
     title: Contact Us
     url: /contact/
-    weight: 6
+    weight: 3
+  legal:
+  - identifier: privacy
+    title: Privacy Policy
+    url: /privacy/
+    weight: 1
+  - identifier: terms
+    title: Terms of Use
+    url: /terms/
+    weight: 2
+  - identifier: legal-disclosure
+    title: Legal Disclosure
+    url: /legal-disclosure/
+    weight: 3
 
 # Language Config
 languages:
@@ -62,30 +73,43 @@ languages:
     languageName: Deutsch
     contentDir: content/de
     weight: 2
-    title: "Kurzlisten Vergleich"
     menus:
-      footer:
-      - identifier: about
-        title: Was sind Kurzlisten?
+      main:
+      - identifier: company
+        title: Firma
         url: /about/
         weight: 1
-      - identifier: privacy
-        title: Datenschutz
-        url: /privacy/
+      - identifier: approach
+        title: Unser Ansatz
+        url: /approach/
         weight: 2
-      - identifier: terms
-        title: Nutzungsbedingungen
-        url: /terms/
-        weight: 3
-      - identifier: advertising-disclosure
-        title: Werbehinweis
-        url: /advertising-disclosure/
-        weight: 4
-      - identifier: legal-disclosure
-        title: Impressum
-        url: /legal-disclosure/
-        weight: 5
       - identifier: contact
         title: Kontakt
         url: /contact/
-        weight: 6
+        weight: 3
+      company:
+      - identifier: about
+        title: Wer sind wir?
+        url: /about/
+        weight: 1
+      - identifier: approach
+        title: Unser Ansatz
+        url: /approach/
+        weight: 2
+      - identifier: contact
+        title: Kontakt Aufnehmen
+        url: /contact/
+        weight: 3
+      legal:
+      - identifier: privacy
+        title: Datenschutz
+        url: /privacy/
+        weight: 1
+      - identifier: terms
+        title: Nutzungsbedingungen
+        url: /terms/
+        weight: 2
+      - identifier: legal-disclosure
+        title: Impressum
+        url: /legal-disclosure/
+        weight: 3

@@ -1,12 +1,8 @@
-# Hugo Landing Page Boilerplate
+# Leif Agency Corp Website
 
-For hosting & CI/CD it is integrated with [AWS Amplify](https://aws.amazon.com/amplify/).
-
-# TODO:
-- implement Algolia search: https://www.bennet.org/blog/site-search-jamstack-hugo-algolia/
-- implement filters for lists, _index.md holds filter options, each product data file the values per product.
-- find a way to show Lastmod date for a list, based on the latest updated date for a review file inside a product bundle.
-- Maybe, add a "deals" section. API driven via CJ/others coupon api. Similar to https://www.top10.com/deals
+This website is deployed to Github Pages automatically.
+The `.github/workflows/gh-pages.yml` workflow, builds & then deploys the site to a `gh-pages` branch.
+This branch is configured to deliver the site in production.
 
 ## Development Usage
 
@@ -20,39 +16,36 @@ npm install
 
 ### Use Hugo Commands To Create Content
 
-NOTE: currently **not** working for multi-lingual sites, because of this issues:
+NOTE: currently **not** working for multi-lingual sites, because of this issue:
 https://github.com/gohugoio/hugo/issues/5233
 
 For now just copy/paste existing content to create new content.
 
 ```bash
 # create a new product (will create archetype template)
-hugo -s site new en/products/razors/
-
-# will simply create file without archetype templates
-hugo -s site new en/products/razors/gilette-mach-5.md
+hugo -s site --contentDir="content/de" new some_page.md
 ```
 
 ### :construction_worker: Development:
 
-While developing a Landing Page, use:
+During development use:
 
 ```bash
 npm run dev
 ```
 
-or for developing your Landing Page with `hugo server --buildDrafts --buildFuture`, use:
+or for developing with `hugo server --buildDrafts --buildFuture`, use:
 
 ```bash
 npm run preview
 ```
 
-Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview your new Landing Page.  
+Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview the site.  
 Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
 
 ### :package: Production Build:
 
-To build a static version of the Landing Page inside the `/dist` folder, run:
+To build a static version of the website inside the `/dist` folder, run:
 
 ```bash
 npm run prod
