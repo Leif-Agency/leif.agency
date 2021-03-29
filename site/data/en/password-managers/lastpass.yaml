@@ -1,0 +1,28 @@
+name: LastPass
+rating: 84
+cpa_link: https://wefound.io/something?cid=
+button_cta: "Visit Site"
+has_secondary_offer: false
+secondary_offer_name: ""
+secondary_button_cta: ""
+secondary_cpa_link: ""
+logo: password-managers/lastpass.png
+icon: password-managers/lastpass_icon.png
+highlights:
+  - "Get notified if your password was in a data breach"
+  - "Securely store Wi-Fi passwords"
+  - "Random Username Generator to increase privacy"
+  - "Mobile app for Multi-factor authentication"
+  - "Digital Wallet to save Credit Card & Banking Info"
+pros:
+  - "Beautiful User Interface that's very intuitive"
+  - "Automatic login"
+cons:
+  - "Folder lists can get pretty long"
+when_top_ranked:
+  callout: "Over 70% of users chose LastPass!"
+  list:
+    - "Streams HD/4K content from Netflix, Hulu, BBC, Disney+, HBO & many more."
+    - "Unlock content for US and other countries."
+    - "Fastest VPN in our tests"
+    - "Most reliable security protocols"

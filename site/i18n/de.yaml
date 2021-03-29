@@ -1,0 +1,123 @@
+# homepage
+- id: hp_hero_title
+  translation: "Die Besten Produkte & Services"
+- id: hp_hero_sub
+  translation: "im Vergleich"
+- id: hp_hero_button
+  translation: "Hier Starten"
+- id: hp_everything_you_need
+  translation: "Alles was Sie brauchen:"
+- id: hp_latest_content
+  translation: "Neueste Inhalte"
+- id: hp_top_list
+  translation: "Top Listen"
+- id: hp_review
+  translation: "Vergleich"
+- id: hp_all_in_one_shortlists
+  translation: "All-in-one Shortlists"
+- id: hp_make_informed_decisisons
+  translation: "Um informierte Entscheidungen zu treffen, die Zeit & Geld sparen!"
+- id: hp_check_1_title
+  translation: "Recherche?"
+- id: hp_check_1_body
+  translation: "Schon fertig! Alles was Sie noch vor sich haben, ist Produkte auf unseren Listen vergleichen."
+- id: hp_check_2_title
+  translation: "Gelistete Produkte"
+- id: hp_check_2_body
+  translation: "Sie können beruhigt eine Entscheidung treffen, mit dem Wissen das unsere Listen schon alle Top Produkte enthalten die in Frage kommen."
+- id: hp_check_3_title
+  translation: "Vergleiche"
+- id: hp_check_3_body
+  translation: "Sie brauchen noch weitere Informationen? Kein Problem, jede Liste enthält weiterführende Links zu Produkt Vergleichen."
+- id: hp_check_4_title
+  translation: "Topaktuell"
+- id: hp_check_4_body
+  translation: "Alle unsere Listen werden regelmässig upgedatet damit Sie stets die neuesten Infos an Ihren Fingerspitzen haben."
+- id: hp_faq
+  translation: "Häufig gestellte Fragen"
+- id: hp_faq_q1
+  translation: "Sind alle Informationen stets auf dem aktuellen Stand?"
+- id: hp_faq_a1
+  translation: |
+    Unser Ziel ist natuerlich absolute Perfektion. Da sich Produkte & Services
+    natürlich stetig ändern, können wir nicht garantieren das wir immer die aktuellsten Infos haben.
+    Wir versuchen aber alle Listen so schnell wie möglich upzudaten!
+- id: hp_faq_q2
+  translation: "Werden Produkte oder Services direkt von uns angeboten?"
+- id: hp_faq_a2
+  translation: "Nein, wir erstellen nur Vergleiche und Listen von Dritten."
+- id: hp_faq_q3
+  translation: "Kann ich Sie kontaktieren wenn es um Produkte, Zahlungen oder Retouren geht?"
+- id: hp_faq_a3
+  translation: |
+    Da wir keine Produkte oder Services anbieten, können wir leider auch keinen Support anbieten.
+    Falls Sie uns aber dennoch kontaktieren, senden wir Sie gerne in die richtige Richtung.
+- id: hp_faq_q4
+  translation: "Testen Sie wirklich alle Produkte und Services die Sie Listen?"
+- id: hp_faq_a4
+  translation: "Ja, absolut. Wir haben entweder persönliche Erfahrungen, oder testen jedes einzelne Produkt / Service."
+- id: hp_count_title
+  translation: "Mit Sorgfalt erstellt: Von uns, für Sie."
+- id: hp_count_sub
+  translation: "Alle unsere Inhalte werden geprüft, upgedatet und editoriell abgesegnet bevor sie online gehen."
+- id: hp_count_box_1
+  translation: "Editorieller Inhalt"
+- id: hp_count_box_2
+  translation: "Worte geschrieben"
+- id: hp_count_box_3
+  translation: "Produkt Vergleiche"
+
+
+# partials/advertiser-disclosure.html
+- id: advertising_disclosure_title
+  translation: "Werbehinweis"
+- id: advertising_disclosure_btn
+  translation: "Verstanden!"
+
+
+# _default/single.html
+- id: review_introducing
+  translation: "Wir stellen vor:"
+
+# partials/sidebar.html
+- id: sidebar_title
+  translation: "Top Produkte"
+- id: sidebar_compare_btn
+  translation: "Alle Produkte"
+
+# products/list.html
+- id: back_top
+  translation: "Zurück zum Anfang"
+- id: most_popular
+  translation: "Am beliebtesten"
+- id: read_review_btn
+  translation: "Vergleich Lesen"
+- id: top_products
+  translation: "Top Produkte"
+- id: editors_choice
+  translation: "Redaktions Empfehlung"
+
+
+  # footer
+- id: footer_title_lists
+  translation: "Produkt Listen"
+- id: footer_title_company
+  translation: "Firma"
+- id: footer_title_legal
+  translation: "Juristisches"
+
+# general
+- id: menu_top_title
+  translation: "Top Listen"
+- id: read_more
+  translation: "Mehr →"
+- id: words
+  translation: "Worte"
+- id: min_read_time
+  translation: "minuten zu lesen"
+- id: last_updated
+  translation: "Letztes update:"
+- id: pros
+  translation: "Pros"
+- id: cons
+  translation: "Kontras"

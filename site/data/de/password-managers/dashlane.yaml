@@ -1,0 +1,28 @@
+name: Dashlane
+rating: 96
+cpa_link: https://www.jdoqocy.com/click-3980869-13672298?sid=
+button_cta: "Kostenloser Download"
+has_secondary_offer: true
+secondary_offer_name: "Dashlane Business"
+secondary_button_cta: "Dashlane Für Business"
+secondary_cpa_link: "https://blah.com"
+logo: password-managers/dashlane.svg
+icon: password-managers/dashlane_icon.png
+highlights:
+  - "Dark Web Überwachung, die vor potentiellen Gefahren warnt"
+  - "Loggen Sie sich auf jeder Website mit einem Klick ein"
+  - "Automatisches Speichern neuer Passwörter während der Eingabe"
+  - "Füllen Sie ganze Webformulare mit einem Klick aus"
+pros:
+  - "Sehr einfach zu bedienende Oberfläche"
+  - "Patentiertes Sicherheits Konzept"
+  - "Übersicht über den Zustand der Passwörter"
+cons:
+  - "Kostenlose Version hat viele Einschränkungen"
+when_top_ranked:
+  callout: "Über 70% der Besucher haben Dashlane gewählt!"
+  list:
+    - "**Es ist Kostenlos!**"
+    - "Patentierte Sicherheits Architektur."
+    - "Kostenloser VPN in Premium Version"
+    - "Dashlane nutzt stets die stärkste Passwort Verschlüsselungstechnik, die dem entspricht was US Geheimdienste selbst nutzen. Kann mit heutigen Methoden nicht entschlüsselt werden."

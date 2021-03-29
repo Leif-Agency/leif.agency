@@ -1,0 +1,123 @@
+# homepage
+- id: hp_hero_title
+  translation: "The Best Products & Services"
+- id: hp_hero_sub
+  translation: "Reviewed For Your Convenience"
+- id: hp_hero_button
+  translation: "Get Started"
+- id: hp_everything_you_need
+  translation: "Everything You Need"
+- id: hp_latest_content
+  translation: "Latest Content"
+- id: hp_top_list
+  translation: "Top List"
+- id: hp_review
+  translation: "Review"
+- id: hp_all_in_one_shortlists
+  translation: "All-in-one Shortlists"
+- id: hp_make_informed_decisisons
+  translation: "Make informed decisions fast, but still save time & money!"
+- id: hp_check_1_title
+  translation: "Research?"
+- id: hp_check_1_body
+  translation: "Already done! All you have left is go through a short list of products or services."
+- id: hp_check_2_title
+  translation: "Available Options"
+- id: hp_check_2_body
+  translation: "Rest assured that we have compiled only the very best options to help you make a good decision."
+- id: hp_check_3_title
+  translation: "Reviews"
+- id: hp_check_3_body
+  translation: "Still need some more in-depth information? No problem, read reviews for every single product in a list."
+- id: hp_check_4_title
+  translation: "Up-To-Dateness"
+- id: hp_check_4_body
+  translation: "All of our lists are maintained and regularly updated, so you have the latest info at your fingertips."
+- id: hp_faq
+  translation: "Frequently asked questions"
+- id: hp_faq_q1
+  translation: "Is all info on your site always accurate?"
+- id: hp_faq_a1
+  translation: |
+    While we definitely do strive to achieve absolute perfection, things always change.
+    Therefore we can not guarantee that every piece of info is always accurate.
+    We try to update all lists as often as possible though.
+- id: hp_faq_q2
+  translation: "Are products & services purchased through your website?"
+- id: hp_faq_a2
+  translation: "No, we only compare, rank and review third-party products and services."
+- id: hp_faq_q3
+  translation: "Can i contact you regarding problems with purchases or warranty requests?"
+- id: hp_faq_a3
+  translation: |
+    As we do not sell any products directly, we can not offer support.
+    But we'll gladly point you in the right direction!
+- id: hp_faq_q4
+  translation: "Are you really testing all of the products on your site?"
+- id: hp_faq_a4
+  translation: "Yes, we either have personally used, or personally tested all of the products we list & review."
+- id: hp_count_title
+  translation: "Made with Care: From us, for you."
+- id: hp_count_sub
+  translation: "All of our lists & reviews meticulously researched, updated and vetted before going live."
+- id: hp_count_box_1
+  translation: "Editorial content"
+- id: hp_count_box_2
+  translation: "Words written for you"
+- id: hp_count_box_3
+  translation: "Product Reviews"
+
+
+# partials/advertiser-disclosure.html
+- id: advertising_disclosure_title
+  translation: "Advertising Disclosure"
+- id: advertising_disclosure_btn
+  translation: "Got It!"
+
+
+# _default/single.html
+- id: review_introducing
+  translation: "Introducing"
+
+# partials/sidebar.html
+- id: sidebar_title
+  translation: "Top Products"
+- id: sidebar_compare_btn
+  translation: "Compare all Products"
+
+# products/list.html
+- id: back_top
+  translation: "Back To Top"
+- id: most_popular
+  translation: "Most Popular"
+- id: read_review_btn
+  translation: "Read Review"
+- id: top_products
+  translation: "Top Products"
+- id: editors_choice
+  translation: "Editors Choice"
+
+
+  # footer
+- id: footer_title_lists
+  translation: "Product Lists"
+- id: footer_title_company
+  translation: "Company"
+- id: footer_title_legal
+  translation: "Legal"
+
+# general
+- id: menu_top_title
+  translation: "Top Lists"
+- id: read_more
+  translation: "Read more →"
+- id: words
+  translation: "Words"
+- id: min_read_time
+  translation: "minute read"
+- id: last_updated
+  translation: "Last updated:"
+- id: pros
+  translation: "Pros"
+- id: cons
+  translation: "Cons"

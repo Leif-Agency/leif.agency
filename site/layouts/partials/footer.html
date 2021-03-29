@@ -1,0 +1,19 @@
+<footer class="bg-gray-900">
+  <div class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden space-y-8 sm:px-6 lg:px-8">
+    <div class="-mx-5 -my-2 flex flex-wrap justify-center">
+
+      {{ range .Site.Menus.footer }}
+      <div class="px-5 py-2">
+        <a rel="nofollow" href="{{ .URL | relLangURL }}" class="text-base leading-6 text-gray-400 hover:text-white">
+          {{ .Title }}
+        </a>
+      </div>
+      {{ end }}
+
+      <div class="w-full my-8 text-center text-sm md:text-base leading-6 text-gray-400">
+        &copy; {{ partial "dates/year" }} {{ .Site.Param "title" }} - All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+

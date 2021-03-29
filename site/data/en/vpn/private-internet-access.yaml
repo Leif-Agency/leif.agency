@@ -1,0 +1,29 @@
+name: PrivateInternetAccess
+rating: 96
+cpa_link: https://wefound.io/something?cid=
+button_cta: "Visit Now"
+has_secondary_offer: false
+secondary_offer_name: ""
+secondary_button_cta: ""
+secondary_cpa_link: ""
+logo: vpn/pia.png
+icon: vpn/pia_icon.png
+highlights:
+  - "VPN included"
+  - "Dark Web Monitoring to alert you of breaches"
+  - "Log into any website with one click"
+  - "Automatically save new passwords as you type"
+  - "Fill in entire web-forms with a single click"
+pros:
+  - "Very easy-to-use interface"
+  - "Patented Security Architecture"
+  - "Password health overview"
+cons:
+  - "Free version has many restrictions"
+when_top_ranked:
+  callout: "Over 70% of users chose PrivateInternetAccess!"
+  list:
+    - "Streams HD/4K content from Netflix, Hulu, BBC, Disney+, HBO & many more."
+    - "Unlock content for US and other countries."
+    - "Fastest VPN in our tests"
+    - "Most reliable security protocols"

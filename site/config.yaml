@@ -1,0 +1,91 @@
+baseurl: https://www.shortlist.reviews
+disableHugoGeneratorInject: true
+enableRobotsTXT: true
+canonifyURLs: true
+summaryLength: 25
+enableGitInfo: true
+
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Shortlist Reviews"
+
+  # The Klever Hub Property ID for this landing page.
+  property_id: 1a2dba66-8165-4cf7-9ef9-cd79331034d5
+
+  # The action url for the contact us form.
+  contact_form_url: https://2uk835ggu4.execute-api.eu-central-1.amazonaws.com/prod/contact
+
+# Default language menus
+menus:
+  footer:
+  - identifier: about
+    title: What are Shortlists?
+    url: /about/
+    weight: 1
+  - identifier: privacy
+    title: Privacy Policy
+    url: /privacy/
+    weight: 2
+  - identifier: terms
+    title: Terms of Use
+    url: /terms/
+    weight: 3
+  - identifier: advertising-disclosure
+    title: Advertising Disclosure
+    url: /advertising-disclosure/
+    weight: 4
+  - identifier: legal-disclosure
+    title: Legal Disclosure
+    url: /legal-disclosure/
+    weight: 5
+  - identifier: contact
+    title: Contact Us
+    url: /contact/
+    weight: 6
+
+# Language Config
+languages:
+  en:
+    languageName: English
+    contentDir: content/en
+    weight: 1
+  de:
+    languageName: Deutsch
+    contentDir: content/de
+    weight: 2
+    title: "Kurzlisten Vergleich"
+    menus:
+      footer:
+      - identifier: about
+        title: Was sind Kurzlisten?
+        url: /about/
+        weight: 1
+      - identifier: privacy
+        title: Datenschutz
+        url: /privacy/
+        weight: 2
+      - identifier: terms
+        title: Nutzungsbedingungen
+        url: /terms/
+        weight: 3
+      - identifier: advertising-disclosure
+        title: Werbehinweis
+        url: /advertising-disclosure/
+        weight: 4
+      - identifier: legal-disclosure
+        title: Impressum
+        url: /legal-disclosure/
+        weight: 5
+      - identifier: contact
+        title: Kontakt
+        url: /contact/
+        weight: 6
